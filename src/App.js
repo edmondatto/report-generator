@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import PageOne from './pagedraw/cover'
 import PageTwo from './pagedraw/operational-hours'
+import PageThree from './pagedraw/activity-summary'
 import * as report from './data/data';
 
 
@@ -18,6 +19,8 @@ class App extends Component {
         />
 
         <PageTwo />
+
+        <PageThree />
 
       </React.Fragment>
     );
