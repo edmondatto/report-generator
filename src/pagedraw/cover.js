@@ -57,6 +57,12 @@ function render() {
                 font-weight: 400;\n\
                 src: url(https://pagedraw-fonts.s3.us-west-2.amazonaws.com/AvenirNext-Regular99722bbf-93bb-46ec-85ba-8c392046981d) format(\"opentype\");\n\
             }\n\
+            @font-face {\n\
+                font-family: \"AvenirNext-Regular\";\n\
+                font-style: normal;\n\
+                font-weight: 400;\n\
+                src: url(https://pagedraw-fonts.s3.us-west-2.amazonaws.com/AvenirNext-Regular99722bbf-93bb-46ec-85ba-8c392046981d) format(\"opentype\");\n\
+            }\n\
             \n\
             .cover-cover-1 {\n\
                 display: flex;\n\
@@ -367,12 +373,12 @@ function render() {
                 display: flex;\n\
                 margin-top: 51px;\n\
                 padding-left: 539px;\n\
-                padding-right: 48px;\n\
+                padding-right: 47px;\n\
             }\n\
             \n\
             .cover-_page_-9 {\n\
                 flex-shrink: 0;\n\
-                font-family: Helvetica, Arial, sans-serif;\n\
+                font-family: AvenirNext-Regular;\n\
                 color: rgba(74, 74, 74, 1);\n\
                 font-size: 14px;\n\
                 line-height: normal;\n\
@@ -382,7 +388,7 @@ function render() {
                 text-decoration: none;\n\
                 text-align: left;\n\
                 word-wrap: break-word;\n\
-                padding-right: 0.203125px;\n\
+                padding-right: 0.875px;\n\
             }\n\
             \n\
             .cover-11 {\n\
@@ -458,7 +464,7 @@ function render() {
         ),
         React.createElement('div', {"className": "cover-4"},
             React.createElement('div', {"className": "cover-rectangle_3"},
-                <GreenTick/>
+                <GreenTick big={true}/>
             )
         ),
         React.createElement('div', {"className": "cover-5"},

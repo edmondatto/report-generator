@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+#operational-text {
+  font-family: AvenirNext-Regular, serif;
+  font-size: 16px;
+}
+
 #page-one-footer {
   font-family: AvenirNext-Regular, serif;
   font-size: 14px;
@@ -19,4 +24,11 @@
 
 .bold-text {
   font-weight: bold;
+}
+
+#distance-covered {
+  font-family: AvenirNext-Regular, serif;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
 }
