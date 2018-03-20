@@ -3,8 +3,9 @@ import ReactDOMServer from 'react-dom/server';
 import express from 'express';
 import puppeteer from 'puppeteer';
 
-import generated from './src/pagedraw/a4_-_1';
-import App from "./src/App";
+import generated from './src/pagedraw/pg-5';
+// import App from "./src/App";
+import * as data from 'src/data/data.json';
 
 // usage:
 //   pagedraw login
@@ -31,6 +32,9 @@ app.get('/', function (req, res) {
 
   res.send(rendered_html);
 });
+
+let repData = JSON.stringify(data);
+console.log(data.report_data.customerTeamName);
 
 let PORT = 4252;
 

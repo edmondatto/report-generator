@@ -1,0 +1,22 @@
+#root {
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.body-text {
+  font-family: AvenirNext-Regular, serif;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+
+#page-one-footer {
+  font-family: AvenirNext-Regular, serif;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
